@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 100px;
+}
+#board_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin:auto;
+    width: 500px;
+    border:black 1px solid;
+}
+.table{
+    border:black 1px solid;
+    height: 150px;
+}
