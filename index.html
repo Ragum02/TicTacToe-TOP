@@ -5,20 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="styles/index.css">
-    <script src="scripts/index.js" defer></script>
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
-    <div id="board_container">
-        <div class="case1 table"></div>
-        <div class="case2 table"></div>
-        <div class="case3 table"></div>
-        <div class="case4 table"></div>
-        <div class="case5 table"></div>
-        <div class="case6 table"></div>
-        <div class="case7 table"></div>
-        <div class="case8 table"></div>
-        <div class="case9 table"></div>
+    <div id="gameboard">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
     </div>
+    <div id="controls">
+        <p id="result">Test</p>
+        <input type="text" id="player1" placeholder="Player 1 Name">
+        <input type="text" id="player2" placeholder="Player 2 Name">
+        <div>
+        <button id="restart">Restart Game</button>
+        <button id="start">Start Game</button>
+    </div>
+    </div>
+
+    <script src="scripts/game.js"></script>
 </body>
 </html>
